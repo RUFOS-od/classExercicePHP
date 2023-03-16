@@ -30,7 +30,8 @@ if (!isset($_SESSION["user"])) {
 
         <a href="ajouter.php" class="Btn_add"> <img src="images/plus.png"> Ajouter</a>
 
-        <table>
+        <table class="table table-hover table-bordered">
+            <caption>Liste des élèves de ma classe</caption>
             <tr id="items">
                 <th>Nom</th>
                 <th>Prénom</th>
